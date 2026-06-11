@@ -26,7 +26,7 @@ The objective was to identify:
 - PostgreSQL
 - SQL
 - Git/GitHub
-- Power BI (in progress)
+- Power BI
 
 ---
 
