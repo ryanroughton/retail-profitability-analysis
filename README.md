@@ -76,6 +76,19 @@ Products that were profitable at low discount levels frequently became unprofita
 4. Implement product-specific discount thresholds.
 
 ---
+## Dashboard Screenshots
+
+### Executive Summary Dashboard
+
+![Executive Summary](images/executive_summary.png)
+
+### Root Cause Analysis Dashboard
+
+![Root Cause Analysis](images/root_cause_analysis_dashboard.png)
+
+### Recommendations Dashboard
+
+![Recommendations](images/profitability_optimization_dashboard.png)
 
 ## Repository Structure
 
