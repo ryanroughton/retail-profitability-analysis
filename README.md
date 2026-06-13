@@ -80,15 +80,15 @@ Products that were profitable at low discount levels frequently became unprofita
 
 ### Executive Summary Dashboard
 
-![Executive Summary](images/Executive_Summary.png)
+![Executive Summary](images/executive_summary.png)
 
 ### Root Cause Analysis Dashboard
 
-![Root Cause Analysis](images/Profitability_Optimization_Dashboard.png)
+![Root Cause Analysis](images/profitability_optimization_dashboard.png)
 
 ### Recommendations Dashboard
 
-![Recommendations](images/Root_Cause_Analysis_Dashboard.png)
+![Recommendations](images/root_cause_analysis_dashboard.png)
 
 ## Repository Structure
 
