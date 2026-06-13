@@ -4,7 +4,7 @@
 
 This project analyzes a retail sales dataset containing 50,000 transactions to identify drivers of profitability, regional performance differences, and the impact of discounting on profit margins.
 
-The analysis was conducted using PostgreSQL and SQL, with Power BI used to visualize findings and communicate business insights.
+The analysis was conducted using PostgreSQL and SQL, with Tableau used to visualize findings and communicate business insights.
 
 ---
 
@@ -26,7 +26,7 @@ The objective was to identify:
 - PostgreSQL
 - SQL
 - Git/GitHub
-- Power BI
+- Tableau
 
 ---
 
@@ -46,11 +46,11 @@ The objective was to identify:
 
 ### 1. High Discounts Reduced Profitability
 
-Orders receiving discounts greater than 25% generated approximately $291,000 in losses within the Central region.
+Discounting emerged as the primary driver of profit leakage. While discounts below 25% remained profitable, discounts above 25% generated significant losses, and orders discounted over 50% produced the lowest profit margins in the dataset.
 
-### 2. Texas and Illinois Drove Most Regional Losses
+### 2. State-Level Losses Were Concentrated in a Small Number of States
 
-Analysis revealed that Texas and Illinois accounted for the majority of losses within the Central region.
+The Central region generated the largest overall losses. At the state level, Texas produced the highest losses, followed by Pennsylvania, indicating that profitability challenges were concentrated within a small number of geographic markets.
 
 ### 3. Several Product Categories Operated at Negative Margins
 
@@ -59,6 +59,8 @@ The largest loss-generating categories included:
 - Tables
 - Bookcases
 - Supplies
+
+These categories generated strong sales volume but consistently underperformed on profitability.
 
 ### 4. Profitability Declined as Discounts Increased
 
@@ -69,8 +71,8 @@ Products that were profitable at low discount levels frequently became unprofita
 ## Recommendations
 
 1. Limit discounts above 25%.
-2. Review pricing strategy in Texas and Illinois.
-3. Reevaluate pricing for Tables and Bookcases.
+2. Review pricing and discount strategies in Texas and Pennsylvania, while conducting further investigation into other underperforming Central region states.
+3. Reevaluate pricing for Tables, Bookcases, and other low-margin products.
 4. Implement product-specific discount thresholds.
 
 ---
