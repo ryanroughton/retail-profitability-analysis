@@ -10,7 +10,7 @@ The analysis was conducted using PostgreSQL and SQL, with Tableau used to visual
 
 ## Business Problem
 
-Although Sales Mart generated over $11 million in revenue and $1.34 million in profit, profitability varied significantly across regions, states, discount levels, and product categories.
+Although SalesMart generated over $11 million in revenue and $1.34 million in profit, profitability varied significantly across regions, states, discount levels, and product categories.
 
 The objective was to identify:
 
@@ -42,11 +42,11 @@ The objective was to identify:
 
 ---
 
-## Key Findings
-
 ### Executive Summary Dashboard
 
 ![Executive Summary](images/executive_summary.png)
+
+## Key Findings
 
 ### 1. High Discounts Reduced Profitability
 
