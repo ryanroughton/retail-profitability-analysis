@@ -42,19 +42,15 @@ The objective was to identify:
 
 ---
 
-### Executive Summary Dashboard
-
 ![Executive Summary](images/executive_summary.png)
 
 ## Key Findings
 
 ### 1. High Discounts Reduced Profitability
 
-Discounting emerged as the primary driver of profit leakage. While discounts below 25% remained profitable, discounts above 25% generated significant losses, and orders discounted over 50% produced the lowest profit margins in the dataset.
-
-### Root Cause Analysis Dashboard
-
 ![Root Cause Analysis](images/root_cause_analysis_dashboard.png)
+
+Discounting emerged as the primary driver of profit leakage. While discounts below 25% remained profitable, discounts above 25% generated significant losses, and orders discounted over 50% produced the lowest profit margins in the dataset.
 
 ### 2. State-Level Losses Were Concentrated in a Small Number of States
 
