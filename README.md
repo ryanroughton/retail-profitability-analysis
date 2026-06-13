@@ -1,6 +1,6 @@
 # Retail Profitability Analysis
 
-## Project Overview
+## Overview
 
 This project analyzes a retail sales dataset containing 50,000 transactions to identify drivers of profitability, regional performance differences, and the impact of discounting on profit margins.
 
@@ -44,15 +44,29 @@ The objective was to identify:
 
 ## Key Findings
 
+### Executive Summary Dashboard
+
+![Executive Summary](images/executive_summary.png)
+
 ### 1. High Discounts Reduced Profitability
 
 Discounting emerged as the primary driver of profit leakage. While discounts below 25% remained profitable, discounts above 25% generated significant losses, and orders discounted over 50% produced the lowest profit margins in the dataset.
 
+### Root Cause Analysis Dashboard
+
+![Root Cause Analysis](images/root_cause_analysis_dashboard.png)
+
 ### 2. State-Level Losses Were Concentrated in a Small Number of States
+
+![Gains by State](images/profit_by_state.png)
+
+![Losses by State](images/losses_by_state.png)
 
 The Central region generated the largest overall losses. At the state level, Texas produced the highest losses, followed by Pennsylvania, indicating that profitability challenges were concentrated within a small number of geographic markets.
 
 ### 3. Several Product Categories Operated at Negative Margins
+
+![Sub Category Profit Analysis](images/profit_by_sub_category.png)
 
 The largest loss-generating categories included:
 
@@ -64,11 +78,15 @@ These categories generated strong sales volume but consistently underperformed o
 
 ### 4. Profitability Declined as Discounts Increased
 
+![Discount Impact on Profits](images/discount_impact_on_profits.png)
+
 Products that were profitable at low discount levels frequently became unprofitable once discounts exceeded approximately 25%.
 
 ---
 
 ## Recommendations
+
+![Recomendations](images/profitability_optimization_dashboard.png)
 
 1. Limit discounts above 25%.
 2. Review pricing and discount strategies in Texas and Pennsylvania, while conducting further investigation into other underperforming Central region states.
@@ -76,19 +94,6 @@ Products that were profitable at low discount levels frequently became unprofita
 4. Implement product-specific discount thresholds.
 
 ---
-## Dashboard Screenshots
-
-### Executive Summary Dashboard
-
-![Executive Summary](images/executive_summary.png)
-
-### Root Cause Analysis Dashboard
-
-![Recommendations](images/root_cause_analysis_dashboard.png)
-
-### Recommendations Dashboard
-
-![Root Cause Analysis](images/profitability_optimization_dashboard.png)
 
 ## Repository Structure
 
