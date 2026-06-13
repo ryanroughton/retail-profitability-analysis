@@ -88,7 +88,7 @@ Products that were profitable at low discount levels frequently became unprofita
 
 ### Recommendations Dashboard
 
-![Root Cause Analysis](images/profitability_optimization_dashboard.png)
+![Root Cause Analysis]()
 
 ## Repository Structure
 
